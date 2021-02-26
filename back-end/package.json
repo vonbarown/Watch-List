@@ -10,7 +10,7 @@
     "reseedHeroku": "npm run resetDB && heroku pg:psql -f db/seed.sql"
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "cookie-parser": "~1.4.5",
     "cors": "^2.8.5",
     "debug": "~4.3.1",
